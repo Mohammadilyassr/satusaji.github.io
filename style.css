@@ -497,11 +497,16 @@ body:before {
 
 @media screen and (max-width:960px){
     #footer__container {
-        height: 45vh;
+        height: 40vh;
         margin-top: 5rem;
     }
 
+    .footer__links--wrapper h2 {
+    font-size: 2rem;
+    }
+
     .footer__links--items a {
+        font-size: 0.9rem;
         display: flex;
         align-items: center;
     }
